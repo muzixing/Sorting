@@ -10,7 +10,6 @@ def bubble_sort(array):
     return array
 
 def bubble_sort_1(array):
-    t = time.time()
     length = len(array)
     last = length-1
     for i in range(length):
@@ -22,8 +21,6 @@ def bubble_sort_1(array):
                 flag = 0
         if flag:
             break
-    diff = t- time.time()
-    print(diff)
     return array
 
 if __name__ == "__main__":
