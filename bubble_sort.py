@@ -1,6 +1,3 @@
-import time
-
-
 def bubble_sort(array):
     length = len(array)
     for i in range(length):
